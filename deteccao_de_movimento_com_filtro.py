@@ -69,7 +69,7 @@ def detect_motion(video_path, output_path):
     cv2.destroyAllWindows()
 
 # Caminho para o arquivo de vídeo (substitua pelo caminho correto)
-video_path = "movimento.mp4"
-output_path = "movimento-com-deteccao-e-filtragem.mp4"
+video_path = "objeto_em_queda.mp4"
+output_path = "saida_com_detecao.mp4"
 
 detect_motion(video_path, output_path)
